@@ -1,8 +1,6 @@
-## CDN加速
+# CDN
+- [jsDelivr](https://www.jsdelivr.com/)
+- [gooreplacer](https://github.com/jiacai2050/gooreplacer)
 
-# [gooreplacer](https://github.com/jiacai2050/gooreplacer)
-
-# [jsDelivr](https://www.jsdelivr.com/)
-
-## 导入规则
+## config
 > https://raw.githubusercontent.com/sayaia/gr/master/gooreplacer.gson
