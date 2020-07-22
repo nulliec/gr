@@ -1,0 +1,46 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.11.1",
+  "createAt": "7/22/2020, 1:19:21 PM",
+  "redirect-rules": [
+    {
+      "src": "apis.google.com/js/plusone.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/sayaia/gr/js/google/plusone.js",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/platform.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/sayaia/gr/js/google/platform.js",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/api.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/sayaia/gr/js/google/api.js",
+      "enable": true
+    },
+    {
+      "src": "platform.twitter.com/widgets.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/sayaia/gr/js/twitter/widgets.js",
+      "enable": true
+    },
+    {
+      "src": "google.com/recaptcha",
+      "kind": "wildcard",
+      "dst": "recaptcha.net/recaptcha",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com/ajax/libs",
+      "kind": "wildcard",
+      "dst": "cdn.bootcss.com",
+      "enable": false
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
